@@ -1,0 +1,81 @@
+REVERSE STRING
+
+function reverseThisString(str) {
+    let newString = ;
+    for (let i = str.length - 1; i = 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+const string = prompt('Enter a string ');
+
+const result = reverseString(string);
+console.log(result);
+
+UPPERCASE TO LOWERCASE
+
+swapCase = function swapCase(str) {
+        return str.replace(([a-z]+)([A-Z]+)g, function(match, chr) {
+            return chr  match.toUpperCase()  match.toLowerCase();
+        });
+    }
+console.log(swapcase('Hello World'));
+
+FARENHEIT TO CELCIUS
+
+const toCelsius = prompt(Enter a celsius value );
+const fahrenheit = (celsius  1.8) + 32;
+console.log(`${toCelsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`);
+
+BOOLEEN
+function passOrFail(array){return array.map(score= score= 75);
+}
+console.log(passOrFail[20, 30, 50, 80, 90, 100])
+
+
+GERMAN NUMBERS
+function germanNumbers(){
+    const cardinalNumbers = [2,3,4,5,6];
+    const germanNumbers = ['zwei', 'drei', 'vier', 'fünf', 'sechs'];
+	let result = [];
+	for(let i = 0; i cardinalNumbers.length; i++){
+	result.push(cardinalNumbers[i]+ 'is' + germanNumbers[i]);
+	} 
+	return result;
+}
+
+
+PRIME NUMBERS 
+
+function returnPrimeNumbers(){
+const numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+function returnPrimeNumbers(num){
+for (let i = 2; i=num; i++){
+if (num % 1 === 0)
+return false;
+}
+return num  1;
+}
+return.num.filter(returnPrimeNumbers);
+}
+
+
+MULTIPLES OF 3 AND 5 
+
+function loveJs(){
+for(let i=1; i=100; i++){
+if(i % 3 == 0 && i % 5 ==0){
+console.log(CSC225 RULES I LOVE JAVASCRIPT);
+}
+else if (i % 3 ==0){
+console.log(CSC225 RULES);
+}
+else if (i % 5 ==0){
+console.log(I LOVE JAVASCRIPT);
+}
+else{
+console.log(i);
+}
+}
+}
+loveJs();
